@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main{background:#f4f4f4;padding-bottom:20px;width:expression(document.body.clientWidth <= 1100? "1100px": "auto");min-width:1100px;width:100%;}
+.tit{padding-top:10px;height:40px;border-bottom:solid 1px #c3c1c1;margin-bottom:20px;}
+.tit h3{font-size:16px;font-weight:normal;font-family:"Microsoft YaHei";color:#707070;line-height:40px;}
+.tit p{font-size:12px;color:#c9c9c9;padding-top:20px;}
+
+#tabs li{width:200px;height:50px;background:#FFF;margin-bottom:2px;line-height:50px;text-align:center;}
+#tabs li a{font-size:14px;font-family:"Microsoft YaHei";font-weight:normal;display:block;}
+.inner_r{width:800px;padding:30px 40px;background:#FFF;min-height:1020px;}
+.inner_r h5{font-size:16px;font-weight:normal;font-family:"Microsoft YaHei";color:#707070;line-height:28px;text-align:center;padding:0 0 20px 0;border-bottom:solid 1px #CCC;}
+.inner_r p{color:#626262;line-height:24px;font-size:12px;padding:20px 0 0 0;}
+.inner_r img{text-align:center;}
+#tabs li:hover{background:#FCFCFC;}
+.hover{background:url(../images/ny5-hover_03.png) no-repeat left center;color:#e15942;}
+
+.pro_ad{width:200px;background:url(../images/ny1_03.gif) no-repeat left top #FFF;border-top:solid 1px #e15942;margin-top:20px;height:745px;text-align:center;padding:55px 0 0 0;}
+.pro_ad li{height:240px;}
+.pro_ad li h6{font-size:14px;font-weight:normal;font-family:"Microsoft YaHei";color:#707070;line-height:32px;}
+.pro_ad img{padding:5px 0;}
+.pro_ad a{display:block;width:130px;height:30px;line-height:30px;background:#eb6c57;color:#FFF;font-size:14px;margin:10px 35px;border-radius:3px}
+.pro_ad a:hover{background:#d4371c;border-radius:3px}
